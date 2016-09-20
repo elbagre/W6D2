@@ -1,0 +1,21 @@
+
+ul {
+  display: inline-block;
+  height: 400px;
+  width: 400px;
+  border: 10px solid red;
+}
+
+li {
+  display: inline-block;
+  float: left;
+  height: 400px;
+  width: 100px;
+  border-right: 10px solid black;
+  background-color: grey;
+}
+
+
+.hanoi {
+
+}
