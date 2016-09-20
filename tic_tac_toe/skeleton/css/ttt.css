@@ -1,0 +1,46 @@
+body {
+  background-color: salmon;
+}
+
+ul {
+  width: 50%;
+  height: 50%;
+  margin: 100px;
+  display: inline-block;
+
+}
+
+li {
+  display: inline-block;
+  float: left;
+  width: 15%;
+  height: 15px;
+  border-top: 10px solid black;
+  border-left: 10px solid black;
+  background-color: gray;
+  font-style: Sans-serif;
+  font-size: 130px;
+  text-align: center;
+}
+
+li:nth-of-type(3n) {
+  border-right: 10px solid black;
+}
+
+li:nth-of-type(1n+7) {
+  border-bottom: 10px solid black;
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+.playaWan {
+  background-color: white;
+  color: orchid;
+}
+
+.playaToo {
+  background-color: white;
+  color: navy;
+}
